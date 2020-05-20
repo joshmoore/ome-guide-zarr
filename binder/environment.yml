@@ -7,9 +7,11 @@ dependencies:
   - bftools
   - bioformats2raw
   - raw2ometiff
+  - blosc
   - napari
   - zarr
   - dask
   - s3fs
+  - pip
   - pip:
     - ome-zarr
