@@ -1,14 +1,15 @@
 channels:
-  - conda-forge
   - ome
-  - ilastik-forge
+  - conda-forge
+  - defaults
 dependencies:
-  - zeroc-ice36-python
-  - omero-py
-  - pip
-  - ilastik-dependencies-no-solvers
-  - ilastik-meta
-  - ipywidgets
+  - python=3.6
+  - bftools
+  - bioformats2raw
+  - raw2ometiff
+  - napari
   - zarr
-  - s3fs
   - dask
+  - s3fs
+  - pip:
+    - ome-zarr
