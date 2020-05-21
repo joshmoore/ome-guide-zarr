@@ -4,9 +4,9 @@ channels:
   - defaults
 dependencies:
   - python=3.6
-  - bftools
-  - bioformats2raw
-  - raw2ometiff
+  - bftools=6.3.1
+  - bioformats2raw=0.2.2
+  - raw2ometiff=0.2.4
   - blosc
   - napari
   - zarr
